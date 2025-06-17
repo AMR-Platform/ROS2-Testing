@@ -1,0 +1,168 @@
+[0.015s] Invoking command in '/home/thevindu/catkin_ws/build/lakibeam1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver -DCMAKE_INSTALL_PREFIX=/home/thevindu/catkin_ws/install/lakibeam1
+[0.096s] -- The C compiler identification is GNU 11.4.0
+[0.181s] -- The CXX compiler identification is GNU 11.4.0
+[0.192s] -- Detecting C compiler ABI info
+[0.290s] -- Detecting C compiler ABI info - done
+[0.308s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.308s] -- Detecting C compile features
+[0.309s] -- Detecting C compile features - done
+[0.316s] -- Detecting CXX compiler ABI info
+[0.441s] -- Detecting CXX compiler ABI info - done
+[0.453s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.453s] -- Detecting CXX compile features
+[0.454s] -- Detecting CXX compile features - done
+[0.457s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.691s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.827s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.890s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.897s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.911s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.930s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.955s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.021s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.024s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.146s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.189s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.252s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.264s] -- Looking for pthread.h
+[1.370s] -- Looking for pthread.h - found
+[1.371s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.479s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.480s] -- Found Threads: TRUE  
+[1.561s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.676s] -- Checking for module 'eigen3'
+[1.693s] --   Found eigen3, version 3.4.0
+[1.737s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.737s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.792s] -- Checking for module 'flann'
+[1.810s] --   Found flann, version 1.9.1
+[1.863s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.864s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.210s] -- Checking for module 'libusb-1.0'
+[3.229s] --   Found libusb-1.0, version 1.0.25
+[3.277s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.279s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.355s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.603s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.613s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.622s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.852s] -- Found Qhull version 8.0.2
+[4.094s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.322s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.324s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.325s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.326s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.328s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.329s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.330s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.331s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.333s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.336s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.339s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.341s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.344s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.345s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.347s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.349s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.350s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.352s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.354s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.355s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.356s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.357s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.357s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.359s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.361s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.365s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[4.472s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[4.475s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.607s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.607s] -- Configured cppcheck include dirs: 
+[4.607s] -- Configured cppcheck exclude dirs and/or files: 
+[4.609s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.611s] -- Added test 'lint_cmake' to check CMake code style
+[4.612s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.618s] -- Added test 'uncrustify' to check C / C++ code style
+[4.618s] -- Configured uncrustify additional arguments: 
+[4.619s] -- Added test 'xmllint' to check XML markup files
+[4.623s] -- Configuring done
+[4.642s] -- Generating done
+[4.649s] -- Build files have been written to: /home/thevindu/catkin_ws/build/lakibeam1
+[4.674s] Invoked command in '/home/thevindu/catkin_ws/build/lakibeam1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver -DCMAKE_INSTALL_PREFIX=/home/thevindu/catkin_ws/install/lakibeam1
+[4.678s] Invoking command in '/home/thevindu/catkin_ws/build/lakibeam1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thevindu/catkin_ws/build/lakibeam1 -- -j8 -l8
+[4.756s] [ 33%] [32mBuilding CXX object CMakeFiles/lakibeam1_scan_node.dir/src/lakibeam1_scan.cpp.o[0m
+[4.756s] [ 66%] [32mBuilding CXX object CMakeFiles/lakibeam1_scan_node.dir/src/remote.cpp.o[0m
+[8.694s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/remote.cpp:[m[K In function ‘[01m[Ksize_t dummy_callback(void*, size_t, size_t, void*)[m[K’:
+[8.695s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/remote.cpp:16:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.695s]    16 | static size_t dummy_callback([01;35m[Kvoid *buffer[m[K, size_t size, size_t nmemb, void *userp)
+[8.695s]       |                              [01;35m[K~~~~~~^~~~~~[m[K
+[8.695s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/remote.cpp:16:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuserp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.695s]    16 | static size_t dummy_callback(void *buffer, size_t size, size_t nmemb, [01;35m[Kvoid *userp[m[K)
+[8.695s]       |                                                                       [01;35m[K~~~~~~^~~~~[m[K
+[9.412s] In file included from [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/remote.cpp:4[m[K:
+[9.413s] /home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h: In instantiation of ‘[01m[Kvoid rapidjson::GenericValue<Encoding, Allocator>::SetObjectRaw(rapidjson::GenericValue<Encoding, Allocator>::Member*, rapidjson::SizeType, Allocator&) [with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; rapidjson::GenericValue<Encoding, Allocator>::Member = rapidjson::GenericMember<rapidjson::UTF8<>, rapidjson::MemoryPoolAllocator<> >; rapidjson::SizeType = unsigned int][m[K’:
+[9.413s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:2363:55:[m[K   required from ‘[01m[Kbool rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::EndObject(rapidjson::SizeType) [with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; rapidjson::SizeType = unsigned int][m[K’
+[9.413s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/reader.h:1736:40:[m[K   required from ‘[01m[Krapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParsingState rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::Transit(rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParsingState, rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::Token, rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParsingState, InputStream&, Handler&) [with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator][m[K’
+[9.414s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/reader.h:1832:58:[m[K   required from ‘[01m[Krapidjson::ParseResult rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParse(InputStream&, Handler&) [with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator][m[K’
+[9.414s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/reader.h:487:46:[m[K   required from ‘[01m[Krapidjson::ParseResult rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::Parse(InputStream&, Handler&) [with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator][m[K’
+[9.414s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:2159:57:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::ParseStream(InputStream&) [with unsigned int parseFlags = 0; SourceEncoding = rapidjson::UTF8<>; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator][m[K’
+[9.414s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:2224:55:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Parse(const typename SourceEncoding::Ch*) [with unsigned int parseFlags = 0; SourceEncoding = rapidjson::UTF8<>; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; typename SourceEncoding::Ch = char][m[K’
+[9.414s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:2233:43:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Parse(const Ch*) [with unsigned int parseFlags = 0; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Ch = char][m[K’
+[9.415s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:2240:41:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Parse(const Ch*) [with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Ch = char][m[K’
+[9.415s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/remote.cpp:76:16:[m[K   required from here
+[9.415s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:1952:24:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ writing to an object of type ‘[01m[Krapidjson::GenericValue<rapidjson::UTF8<> >::Member[m[K’ {aka ‘[01m[Kstruct rapidjson::GenericMember<rapidjson::UTF8<>, rapidjson::MemoryPoolAllocator<> >[m[K’} with no trivial copy-assignment; use copy-assignment instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[9.415s]  1952 |             [01;35m[Kstd::memcpy(m, members, count * sizeof(Member))[m[K;
+[9.415s]       |             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.416s] In file included from [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/remote.cpp:4[m[K:
+[9.416s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:71:8:[m[K [01;36m[Knote: [m[K‘[01m[Krapidjson::GenericValue<rapidjson::UTF8<> >::Member[m[K’ {aka ‘[01m[Kstruct rapidjson::GenericMember<rapidjson::UTF8<>, rapidjson::MemoryPoolAllocator<> >[m[K’} declared here
+[9.416s]    71 | struct [01;36m[KGenericMember[m[K {
+[9.416s]       |        [01;36m[K^~~~~~~~~~~~~[m[K
+[9.416s] In file included from [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/remote.cpp:4[m[K:
+[9.416s] /home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h: In instantiation of ‘[01m[Kvoid rapidjson::GenericValue<Encoding, Allocator>::SetArrayRaw(rapidjson::GenericValue<Encoding, Allocator>*, rapidjson::SizeType, Allocator&) [with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; rapidjson::SizeType = unsigned int][m[K’:
+[9.417s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:2371:54:[m[K   required from ‘[01m[Kbool rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::EndArray(rapidjson::SizeType) [with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; rapidjson::SizeType = unsigned int][m[K’
+[9.417s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/reader.h:1766:39:[m[K   required from ‘[01m[Krapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParsingState rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::Transit(rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParsingState, rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::Token, rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParsingState, InputStream&, Handler&) [with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator][m[K’
+[9.417s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/reader.h:1832:58:[m[K   required from ‘[01m[Krapidjson::ParseResult rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParse(InputStream&, Handler&) [with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator][m[K’
+[9.417s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/reader.h:487:46:[m[K   required from ‘[01m[Krapidjson::ParseResult rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::Parse(InputStream&, Handler&) [with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator][m[K’
+[9.417s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:2159:57:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::ParseStream(InputStream&) [with unsigned int parseFlags = 0; SourceEncoding = rapidjson::UTF8<>; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator][m[K’
+[9.418s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:2224:55:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Parse(const typename SourceEncoding::Ch*) [with unsigned int parseFlags = 0; SourceEncoding = rapidjson::UTF8<>; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; typename SourceEncoding::Ch = char][m[K’
+[9.418s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:2233:43:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Parse(const Ch*) [with unsigned int parseFlags = 0; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Ch = char][m[K’
+[9.418s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:2240:41:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Parse(const Ch*) [with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Ch = char][m[K’
+[9.418s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/remote.cpp:76:16:[m[K   required from here
+[9.418s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:1939:24:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ writing to an object of type ‘[01m[Kclass rapidjson::GenericValue<rapidjson::UTF8<> >[m[K’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[9.419s]  1939 |             [01;35m[Kstd::memcpy(e, values, count * sizeof(GenericValue))[m[K;
+[9.419s]       |             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.419s] [01m[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:540:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass rapidjson::GenericValue<rapidjson::UTF8<> >[m[K’ declared here
+[9.419s]   540 | class [01;36m[KGenericValue[m[K {
+[9.419s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[11.993s] [100%] [32m[1mLinking CXX executable lakibeam1_scan_node[0m
+[12.409s] [100%] Built target lakibeam1_scan_node
+[12.427s] Invoked command in '/home/thevindu/catkin_ws/build/lakibeam1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thevindu/catkin_ws/build/lakibeam1 -- -j8 -l8
+[12.442s] Invoking command in '/home/thevindu/catkin_ws/build/lakibeam1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thevindu/catkin_ws/build/lakibeam1
+[12.453s] -- Install configuration: ""
+[12.453s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/ament_index/resource_index/package_run_dependencies/lakibeam1
+[12.453s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/ament_index/resource_index/parent_prefix_path/lakibeam1
+[12.453s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/environment/ament_prefix_path.sh
+[12.453s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/environment/ament_prefix_path.dsv
+[12.454s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/environment/path.sh
+[12.454s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/environment/path.dsv
+[12.454s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/local_setup.bash
+[12.454s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/local_setup.sh
+[12.454s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/local_setup.zsh
+[12.454s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/local_setup.dsv
+[12.455s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/package.dsv
+[12.455s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/ament_index/resource_index/packages/lakibeam1
+[12.455s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/cmake/lakibeam1Config.cmake
+[12.455s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/cmake/lakibeam1Config-version.cmake
+[12.455s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/package.xml
+[12.456s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/lib/lakibeam1/lakibeam1_scan_node
+[12.457s] -- Set runtime path of "/home/thevindu/catkin_ws/install/lakibeam1/lib/lakibeam1/lakibeam1_scan_node" to ""
+[12.458s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/launch
+[12.458s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan.launch.py
+[12.458s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_dual_lidar_view.launch.py
+[12.458s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_dual_lidar.launch.py
+[12.458s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_view.launch.py
+[12.458s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/rviz
+[12.458s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/rviz/lakibeam1_scan.rviz
+[12.458s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/rviz/rviz_scan.rviz
+[12.459s] -- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/rviz/lakibeam1_scan_dual.rviz
+[12.461s] Invoked command in '/home/thevindu/catkin_ws/build/lakibeam1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thevindu/catkin_ws/build/lakibeam1

@@ -1,0 +1,4 @@
+[0.015s] Invoking command in '/home/thevindu/dev_ws/build/serial_to_ros2': /usr/bin/cmake /home/thevindu/dev_ws/src/serial_to_ros2 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/thevindu/dev_ws/install/serial_to_ros2
+[0.025s] [0mCMake Error: The source directory "/home/thevindu/dev_ws/src/serial_to_ros2" does not appear to contain CMakeLists.txt.
+[0.025s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.027s] Invoked command in '/home/thevindu/dev_ws/build/serial_to_ros2' returned '1': /usr/bin/cmake /home/thevindu/dev_ws/src/serial_to_ros2 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/thevindu/dev_ws/install/serial_to_ros2

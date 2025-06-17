@@ -1,0 +1,2 @@
+Invoking command in '/home/thevindu/dev_ws/build/serial_to_ros2': /usr/bin/cmake /home/thevindu/dev_ws/src/serial_to_ros2 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/thevindu/dev_ws/install/serial_to_ros2
+Invoked command in '/home/thevindu/dev_ws/build/serial_to_ros2' returned '1': /usr/bin/cmake /home/thevindu/dev_ws/src/serial_to_ros2 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/thevindu/dev_ws/install/serial_to_ros2

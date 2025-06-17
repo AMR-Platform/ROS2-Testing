@@ -1,0 +1,129 @@
+[0.159s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.160s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a89f1d23af0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a89f1d22cb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a89f1d22cb0>>)
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.402s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/thevindu/catkin_ws/src'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(Lakibeam_ROS2_Driver) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(Lakibeam_ROS2_Driver) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(Lakibeam_ROS2_Driver) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(Lakibeam_ROS2_Driver) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(Lakibeam_ROS2_Driver) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(Lakibeam_ROS2_Driver) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(Lakibeam_ROS2_Driver) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(Lakibeam_ROS2_Driver) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(Lakibeam_ROS2_Driver) by extension 'ros'
+[0.426s] DEBUG:colcon.colcon_core.package_identification:Package 'Lakibeam_ROS2_Driver' with type 'ros.ament_cmake' and name 'lakibeam1'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.476s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/thevindu/ros2_ws/install
+[0.479s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 345 installed packages in /opt/ros/humble
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'lakibeam1' build argument 'cmake_args' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'lakibeam1' build argument 'cmake_target' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'lakibeam1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'lakibeam1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'lakibeam1' build argument 'cmake_clean_first' from command line to 'False'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'lakibeam1' build argument 'cmake_force_configure' from command line to 'False'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'lakibeam1' build argument 'ament_cmake_args' from command line to 'None'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'lakibeam1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'lakibeam1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.551s] DEBUG:colcon.colcon_core.verb:Building package 'lakibeam1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thevindu/catkin_ws/src/build/lakibeam1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thevindu/catkin_ws/src/install/lakibeam1', 'merge_install': False, 'path': '/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver', 'symlink_install': False, 'test_result_base': None}
+[0.551s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.552s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.553s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver' with build type 'ament_cmake'
+[0.553s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver'
+[0.556s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.556s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.556s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thevindu/catkin_ws/src/build/lakibeam1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver -DCMAKE_INSTALL_PREFIX=/home/thevindu/catkin_ws/src/install/lakibeam1
+[5.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thevindu/catkin_ws/src/build/lakibeam1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver -DCMAKE_INSTALL_PREFIX=/home/thevindu/catkin_ws/src/install/lakibeam1
+[5.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thevindu/catkin_ws/src/build/lakibeam1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thevindu/catkin_ws/src/build/lakibeam1 -- -j8 -l8
+[14.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thevindu/catkin_ws/src/build/lakibeam1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thevindu/catkin_ws/src/build/lakibeam1 -- -j8 -l8
+[14.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thevindu/catkin_ws/src/build/lakibeam1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thevindu/catkin_ws/src/build/lakibeam1
+[14.590s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lakibeam1)
+[14.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thevindu/catkin_ws/src/build/lakibeam1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thevindu/catkin_ws/src/build/lakibeam1
+[14.594s] Level 1:colcon.colcon_core.environment:checking '/home/thevindu/catkin_ws/src/install/lakibeam1' for CMake module files
+[14.595s] Level 1:colcon.colcon_core.environment:checking '/home/thevindu/catkin_ws/src/install/lakibeam1' for CMake config files
+[14.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('lakibeam1', 'cmake_prefix_path')
+[14.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/hook/cmake_prefix_path.ps1'
+[14.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/hook/cmake_prefix_path.dsv'
+[14.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/hook/cmake_prefix_path.sh'
+[14.599s] Level 1:colcon.colcon_core.environment:checking '/home/thevindu/catkin_ws/src/install/lakibeam1/lib'
+[14.599s] Level 1:colcon.colcon_core.environment:checking '/home/thevindu/catkin_ws/src/install/lakibeam1/bin'
+[14.599s] Level 1:colcon.colcon_core.environment:checking '/home/thevindu/catkin_ws/src/install/lakibeam1/lib/pkgconfig/lakibeam1.pc'
+[14.600s] Level 1:colcon.colcon_core.environment:checking '/home/thevindu/catkin_ws/src/install/lakibeam1/lib/python3.10/site-packages'
+[14.600s] Level 1:colcon.colcon_core.environment:checking '/home/thevindu/catkin_ws/src/install/lakibeam1/bin'
+[14.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/package.ps1'
+[14.602s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/package.dsv'
+[14.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/package.sh'
+[14.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/package.bash'
+[14.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/package.zsh'
+[14.606s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thevindu/catkin_ws/src/install/lakibeam1/share/colcon-core/packages/lakibeam1)
+[14.607s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lakibeam1)
+[14.608s] Level 1:colcon.colcon_core.environment:checking '/home/thevindu/catkin_ws/src/install/lakibeam1' for CMake module files
+[14.608s] Level 1:colcon.colcon_core.environment:checking '/home/thevindu/catkin_ws/src/install/lakibeam1' for CMake config files
+[14.609s] Level 1:colcon.colcon_core.shell:create_environment_hook('lakibeam1', 'cmake_prefix_path')
+[14.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/hook/cmake_prefix_path.ps1'
+[14.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/hook/cmake_prefix_path.dsv'
+[14.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/hook/cmake_prefix_path.sh'
+[14.611s] Level 1:colcon.colcon_core.environment:checking '/home/thevindu/catkin_ws/src/install/lakibeam1/lib'
+[14.611s] Level 1:colcon.colcon_core.environment:checking '/home/thevindu/catkin_ws/src/install/lakibeam1/bin'
+[14.611s] Level 1:colcon.colcon_core.environment:checking '/home/thevindu/catkin_ws/src/install/lakibeam1/lib/pkgconfig/lakibeam1.pc'
+[14.611s] Level 1:colcon.colcon_core.environment:checking '/home/thevindu/catkin_ws/src/install/lakibeam1/lib/python3.10/site-packages'
+[14.612s] Level 1:colcon.colcon_core.environment:checking '/home/thevindu/catkin_ws/src/install/lakibeam1/bin'
+[14.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/package.ps1'
+[14.613s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/package.dsv'
+[14.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/package.sh'
+[14.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/package.bash'
+[14.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/package.zsh'
+[14.616s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thevindu/catkin_ws/src/install/lakibeam1/share/colcon-core/packages/lakibeam1)
+[14.616s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.617s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.617s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.617s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.625s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.625s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.625s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.650s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.650s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thevindu/catkin_ws/src/install/local_setup.ps1'
+[14.652s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/thevindu/catkin_ws/src/install/_local_setup_util_ps1.py'
+[14.654s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thevindu/catkin_ws/src/install/setup.ps1'
+[14.657s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thevindu/catkin_ws/src/install/local_setup.sh'
+[14.658s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/thevindu/catkin_ws/src/install/_local_setup_util_sh.py'
+[14.659s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thevindu/catkin_ws/src/install/setup.sh'
+[14.661s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thevindu/catkin_ws/src/install/local_setup.bash'
+[14.661s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thevindu/catkin_ws/src/install/setup.bash'
+[14.663s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thevindu/catkin_ws/src/install/local_setup.zsh'
+[14.664s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thevindu/catkin_ws/src/install/setup.zsh'

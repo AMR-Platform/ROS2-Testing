@@ -1,0 +1,4 @@
+Invoking command in '/home/thevindu/catkin_ws/src/build/lakibeam1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thevindu/catkin_ws/src/build/lakibeam1 -- -j8 -l8
+Invoked command in '/home/thevindu/catkin_ws/src/build/lakibeam1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thevindu/catkin_ws/src/build/lakibeam1 -- -j8 -l8
+Invoking command in '/home/thevindu/catkin_ws/src/build/lakibeam1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thevindu/catkin_ws/src/build/lakibeam1
+Invoked command in '/home/thevindu/catkin_ws/src/build/lakibeam1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thevindu/catkin_ws/src/build/lakibeam1

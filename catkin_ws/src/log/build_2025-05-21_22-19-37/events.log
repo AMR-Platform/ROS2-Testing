@@ -1,0 +1,316 @@
+[0.000000] (-) TimerEvent: {}
+[0.000372] (lakibeam1) JobQueued: {'identifier': 'lakibeam1', 'dependencies': OrderedDict()}
+[0.000730] (lakibeam1) JobStarted: {'identifier': 'lakibeam1'}
+[0.011045] (lakibeam1) JobProgress: {'identifier': 'lakibeam1', 'progress': 'cmake'}
+[0.011881] (lakibeam1) Command: {'cmd': ['/usr/bin/cmake', '/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver', '-DCMAKE_INSTALL_PREFIX=/home/thevindu/catkin_ws/src/install/lakibeam1'], 'cwd': '/home/thevindu/catkin_ws/src/build/lakibeam1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thevindu'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thevindu'), ('OLDPWD', '/home/thevindu/catkin_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '7837'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/thevindu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thevindu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thevindu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Thevindu-Latitude-5420:@/tmp/.ICE-unix/2079,unix/Thevindu-Latitude-5420:/tmp/.ICE-unix/2079'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4ab4879d_e022_4cd3_b2c4_5101befb96e4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L5YU62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thevindu/catkin_ws/src/build/lakibeam1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.095168] (lakibeam1) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099654] (-) TimerEvent: {}
+[0.183244] (lakibeam1) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.194272] (lakibeam1) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199751] (-) TimerEvent: {}
+[0.300028] (-) TimerEvent: {}
+[0.302610] (lakibeam1) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.315481] (lakibeam1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.315871] (lakibeam1) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.316555] (lakibeam1) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.321260] (lakibeam1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400147] (-) TimerEvent: {}
+[0.446433] (lakibeam1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.459253] (lakibeam1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.459677] (lakibeam1) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.460336] (lakibeam1) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.463724] (lakibeam1) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500267] (-) TimerEvent: {}
+[0.600674] (-) TimerEvent: {}
+[0.701025] (-) TimerEvent: {}
+[0.701475] (lakibeam1) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.801174] (-) TimerEvent: {}
+[0.841832] (lakibeam1) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.901285] (-) TimerEvent: {}
+[0.916110] (lakibeam1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.924627] (lakibeam1) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.940399] (lakibeam1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.961826] (lakibeam1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.989601] (lakibeam1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.001373] (-) TimerEvent: {}
+[1.064239] (lakibeam1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.069331] (lakibeam1) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.101505] (-) TimerEvent: {}
+[1.201816] (-) TimerEvent: {}
+[1.205571] (lakibeam1) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.251724] (lakibeam1) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.301946] (-) TimerEvent: {}
+[1.315705] (lakibeam1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.332607] (lakibeam1) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.402104] (-) TimerEvent: {}
+[1.450359] (lakibeam1) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.451208] (lakibeam1) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.502245] (-) TimerEvent: {}
+[1.561958] (lakibeam1) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.563952] (lakibeam1) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.602372] (-) TimerEvent: {}
+[1.661482] (lakibeam1) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[1.702483] (-) TimerEvent: {}
+[1.791106] (lakibeam1) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.802589] (-) TimerEvent: {}
+[1.808429] (lakibeam1) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.853169] (lakibeam1) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.853483] (lakibeam1) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.902687] (-) TimerEvent: {}
+[1.915729] (lakibeam1) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.934100] (lakibeam1) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.988298] (lakibeam1) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.988562] (lakibeam1) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[2.002916] (-) TimerEvent: {}
+[2.103327] (-) TimerEvent: {}
+[2.203764] (-) TimerEvent: {}
+[2.304190] (-) TimerEvent: {}
+[2.404572] (-) TimerEvent: {}
+[2.504948] (-) TimerEvent: {}
+[2.605355] (-) TimerEvent: {}
+[2.705785] (-) TimerEvent: {}
+[2.806289] (-) TimerEvent: {}
+[2.906740] (-) TimerEvent: {}
+[3.007107] (-) TimerEvent: {}
+[3.107501] (-) TimerEvent: {}
+[3.207889] (-) TimerEvent: {}
+[3.308265] (-) TimerEvent: {}
+[3.408664] (-) TimerEvent: {}
+[3.509005] (-) TimerEvent: {}
+[3.569860] (lakibeam1) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[3.590071] (lakibeam1) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[3.609130] (-) TimerEvent: {}
+[3.641639] (lakibeam1) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[3.643912] (lakibeam1) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.709284] (-) TimerEvent: {}
+[3.725186] (lakibeam1) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.809420] (-) TimerEvent: {}
+[3.909848] (-) TimerEvent: {}
+[4.010305] (-) TimerEvent: {}
+[4.041583] (lakibeam1) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[4.053016] (lakibeam1) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.064502] (lakibeam1) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[4.110442] (-) TimerEvent: {}
+[4.210937] (-) TimerEvent: {}
+[4.311319] (-) TimerEvent: {}
+[4.331131] (lakibeam1) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[4.411490] (-) TimerEvent: {}
+[4.511898] (-) TimerEvent: {}
+[4.579403] (lakibeam1) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.611965] (-) TimerEvent: {}
+[4.712309] (-) TimerEvent: {}
+[4.812683] (-) TimerEvent: {}
+[4.836258] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[4.838556] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[4.840189] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[4.841621] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[4.843192] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[4.845555] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[4.846177] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[4.846783] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[4.848270] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[4.849889] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[4.852621] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[4.854070] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[4.856109] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[4.858590] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[4.860192] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[4.861756] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[4.864266] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[4.865778] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[4.867520] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[4.869027] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[4.871237] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[4.871812] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[4.877726] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[4.879171] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[4.880695] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[4.886132] (lakibeam1) StdoutLine: {'line': b'-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[4.912784] (-) TimerEvent: {}
+[4.998395] (lakibeam1) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[5.001310] (lakibeam1) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.012868] (-) TimerEvent: {}
+[5.113149] (-) TimerEvent: {}
+[5.139304] (lakibeam1) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.139576] (lakibeam1) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[5.139682] (lakibeam1) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.140816] (lakibeam1) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.143735] (lakibeam1) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.145890] (lakibeam1) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.153361] (lakibeam1) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.153531] (lakibeam1) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.154580] (lakibeam1) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.160004] (lakibeam1) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.185036] (lakibeam1) StdoutLine: {'line': b'-- Generating done\n'}
+[5.193886] (lakibeam1) StdoutLine: {'line': b'-- Build files have been written to: /home/thevindu/catkin_ws/src/build/lakibeam1\n'}
+[5.213294] (-) TimerEvent: {}
+[5.221028] (lakibeam1) CommandEnded: {'returncode': 0}
+[5.222562] (lakibeam1) JobProgress: {'identifier': 'lakibeam1', 'progress': 'build'}
+[5.224520] (lakibeam1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thevindu/catkin_ws/src/build/lakibeam1', '--', '-j8', '-l8'], 'cwd': '/home/thevindu/catkin_ws/src/build/lakibeam1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thevindu'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thevindu'), ('OLDPWD', '/home/thevindu/catkin_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '7837'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/thevindu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thevindu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thevindu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Thevindu-Latitude-5420:@/tmp/.ICE-unix/2079,unix/Thevindu-Latitude-5420:/tmp/.ICE-unix/2079'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4ab4879d_e022_4cd3_b2c4_5101befb96e4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L5YU62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thevindu/catkin_ws/src/build/lakibeam1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.310009] (lakibeam1) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/lakibeam1_scan_node.dir/src/lakibeam1_scan.cpp.o\x1b[0m\n'}
+[5.311027] (lakibeam1) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/lakibeam1_scan_node.dir/src/remote.cpp.o\x1b[0m\n'}
+[5.313396] (-) TimerEvent: {}
+[5.413856] (-) TimerEvent: {}
+[5.514221] (-) TimerEvent: {}
+[5.614530] (-) TimerEvent: {}
+[5.714919] (-) TimerEvent: {}
+[5.815286] (-) TimerEvent: {}
+[5.915622] (-) TimerEvent: {}
+[6.016041] (-) TimerEvent: {}
+[6.116455] (-) TimerEvent: {}
+[6.216834] (-) TimerEvent: {}
+[6.317310] (-) TimerEvent: {}
+[6.417706] (-) TimerEvent: {}
+[6.518083] (-) TimerEvent: {}
+[6.618474] (-) TimerEvent: {}
+[6.718846] (-) TimerEvent: {}
+[6.819257] (-) TimerEvent: {}
+[6.919631] (-) TimerEvent: {}
+[7.019988] (-) TimerEvent: {}
+[7.120427] (-) TimerEvent: {}
+[7.220853] (-) TimerEvent: {}
+[7.321261] (-) TimerEvent: {}
+[7.421748] (-) TimerEvent: {}
+[7.522156] (-) TimerEvent: {}
+[7.622552] (-) TimerEvent: {}
+[7.722924] (-) TimerEvent: {}
+[7.823293] (-) TimerEvent: {}
+[7.923706] (-) TimerEvent: {}
+[8.024108] (-) TimerEvent: {}
+[8.124527] (-) TimerEvent: {}
+[8.224913] (-) TimerEvent: {}
+[8.325359] (-) TimerEvent: {}
+[8.425776] (-) TimerEvent: {}
+[8.526199] (-) TimerEvent: {}
+[8.626664] (-) TimerEvent: {}
+[8.727990] (-) TimerEvent: {}
+[8.829082] (-) TimerEvent: {}
+[8.929670] (-) TimerEvent: {}
+[9.030088] (-) TimerEvent: {}
+[9.130538] (-) TimerEvent: {}
+[9.230955] (-) TimerEvent: {}
+[9.331388] (-) TimerEvent: {}
+[9.431820] (-) TimerEvent: {}
+[9.532259] (-) TimerEvent: {}
+[9.632736] (-) TimerEvent: {}
+[9.733127] (-) TimerEvent: {}
+[9.833510] (-) TimerEvent: {}
+[9.902477] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/remote.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksize_t dummy_callback(void*, size_t, size_t, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.902819] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/remote.cpp:16:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kbuffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.902937] (lakibeam1) StderrLine: {'line': b'   16 | static size_t dummy_callback(\x1b[01;35m\x1b[Kvoid *buffer\x1b[m\x1b[K, size_t size, size_t nmemb, void *userp)\n'}
+[9.903031] (lakibeam1) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[9.903119] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/remote.cpp:16:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kuserp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.903216] (lakibeam1) StderrLine: {'line': b'   16 | static size_t dummy_callback(void *buffer, size_t size, size_t nmemb, \x1b[01;35m\x1b[Kvoid *userp\x1b[m\x1b[K)\n'}
+[9.903307] (lakibeam1) StderrLine: {'line': b'      |                                                                       \x1b[01;35m\x1b[K~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[9.933642] (-) TimerEvent: {}
+[10.034048] (-) TimerEvent: {}
+[10.134421] (-) TimerEvent: {}
+[10.234803] (-) TimerEvent: {}
+[10.335243] (-) TimerEvent: {}
+[10.435792] (-) TimerEvent: {}
+[10.536335] (-) TimerEvent: {}
+[10.636864] (-) TimerEvent: {}
+[10.649511] (lakibeam1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/remote.cpp:4\x1b[m\x1b[K:\n'}
+[10.649775] (lakibeam1) StderrLine: {'line': b'/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid rapidjson::GenericValue<Encoding, Allocator>::SetObjectRaw(rapidjson::GenericValue<Encoding, Allocator>::Member*, rapidjson::SizeType, Allocator&) [with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; rapidjson::GenericValue<Encoding, Allocator>::Member = rapidjson::GenericMember<rapidjson::UTF8<>, rapidjson::MemoryPoolAllocator<> >; rapidjson::SizeType = unsigned int]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.649900] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:2363:55:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::EndObject(rapidjson::SizeType) [with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; rapidjson::SizeType = unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.650171] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/reader.h:1736:40:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParsingState rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::Transit(rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParsingState, rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::Token, rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParsingState, InputStream&, Handler&) [with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.650421] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/reader.h:1832:58:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::ParseResult rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParse(InputStream&, Handler&) [with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.650554] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/reader.h:487:46:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::ParseResult rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::Parse(InputStream&, Handler&) [with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.650826] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:2159:57:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::ParseStream(InputStream&) [with unsigned int parseFlags = 0; SourceEncoding = rapidjson::UTF8<>; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.650933] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:2224:55:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Parse(const typename SourceEncoding::Ch*) [with unsigned int parseFlags = 0; SourceEncoding = rapidjson::UTF8<>; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; typename SourceEncoding::Ch = char]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.651033] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:2233:43:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Parse(const Ch*) [with unsigned int parseFlags = 0; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Ch = char]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.651128] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:2240:41:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Parse(const Ch*) [with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Ch = char]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.651225] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/remote.cpp:76:16:\x1b[m\x1b[K   required from here\n'}
+[10.651319] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:1952:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid* memcpy(void*, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 writing to an object of type \xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericValue<rapidjson::UTF8<> >::Member\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct rapidjson::GenericMember<rapidjson::UTF8<>, rapidjson::MemoryPoolAllocator<> >\x1b[m\x1b[K\xe2\x80\x99} with no trivial copy-assignment; use copy-assignment instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess\x07-Wclass-memaccess\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.651426] (lakibeam1) StderrLine: {'line': b' 1952 |             \x1b[01;35m\x1b[Kstd::memcpy(m, members, count * sizeof(Member))\x1b[m\x1b[K;\n'}
+[10.651548] (lakibeam1) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.651644] (lakibeam1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/remote.cpp:4\x1b[m\x1b[K:\n'}
+[10.651738] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:71:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericValue<rapidjson::UTF8<> >::Member\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct rapidjson::GenericMember<rapidjson::UTF8<>, rapidjson::MemoryPoolAllocator<> >\x1b[m\x1b[K\xe2\x80\x99} declared here\n'}
+[10.651836] (lakibeam1) StderrLine: {'line': b'   71 | struct \x1b[01;36m\x1b[KGenericMember\x1b[m\x1b[K {\n'}
+[10.651930] (lakibeam1) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.652021] (lakibeam1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/remote.cpp:4\x1b[m\x1b[K:\n'}
+[10.652119] (lakibeam1) StderrLine: {'line': b'/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid rapidjson::GenericValue<Encoding, Allocator>::SetArrayRaw(rapidjson::GenericValue<Encoding, Allocator>*, rapidjson::SizeType, Allocator&) [with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; rapidjson::SizeType = unsigned int]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.652217] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:2371:54:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::EndArray(rapidjson::SizeType) [with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; rapidjson::SizeType = unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.652312] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/reader.h:1766:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParsingState rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::Transit(rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParsingState, rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::Token, rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParsingState, InputStream&, Handler&) [with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.652425] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/reader.h:1832:58:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::ParseResult rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParse(InputStream&, Handler&) [with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.652549] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/reader.h:487:46:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::ParseResult rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::Parse(InputStream&, Handler&) [with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.652650] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:2159:57:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::ParseStream(InputStream&) [with unsigned int parseFlags = 0; SourceEncoding = rapidjson::UTF8<>; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.652750] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:2224:55:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Parse(const typename SourceEncoding::Ch*) [with unsigned int parseFlags = 0; SourceEncoding = rapidjson::UTF8<>; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; typename SourceEncoding::Ch = char]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.652856] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:2233:43:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Parse(const Ch*) [with unsigned int parseFlags = 0; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Ch = char]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.652952] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:2240:41:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Parse(const Ch*) [with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::Ch = char]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.653051] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/remote.cpp:76:16:\x1b[m\x1b[K   required from here\n'}
+[10.653142] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:1939:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid* memcpy(void*, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 writing to an object of type \xe2\x80\x98\x1b[01m\x1b[Kclass rapidjson::GenericValue<rapidjson::UTF8<> >\x1b[m\x1b[K\xe2\x80\x99 with no trivial copy-assignment; use copy-assignment or copy-initialization instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess\x07-Wclass-memaccess\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.653241] (lakibeam1) StderrLine: {'line': b' 1939 |             \x1b[01;35m\x1b[Kstd::memcpy(e, values, count * sizeof(GenericValue))\x1b[m\x1b[K;\n'}
+[10.653330] (lakibeam1) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.653417] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thevindu/catkin_ws/src/Lakibeam_ROS2_Driver/src/../thirdparty/rapidjson/document.h:540:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rapidjson::GenericValue<rapidjson::UTF8<> >\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[10.653519] (lakibeam1) StderrLine: {'line': b'  540 | class \x1b[01;36m\x1b[KGenericValue\x1b[m\x1b[K {\n'}
+[10.653618] (lakibeam1) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.737005] (-) TimerEvent: {}
+[10.837397] (-) TimerEvent: {}
+[10.937815] (-) TimerEvent: {}
+[11.038193] (-) TimerEvent: {}
+[11.138647] (-) TimerEvent: {}
+[11.239016] (-) TimerEvent: {}
+[11.339399] (-) TimerEvent: {}
+[11.439769] (-) TimerEvent: {}
+[11.540186] (-) TimerEvent: {}
+[11.640598] (-) TimerEvent: {}
+[11.741042] (-) TimerEvent: {}
+[11.841452] (-) TimerEvent: {}
+[11.941903] (-) TimerEvent: {}
+[12.043179] (-) TimerEvent: {}
+[12.143580] (-) TimerEvent: {}
+[12.244066] (-) TimerEvent: {}
+[12.344458] (-) TimerEvent: {}
+[12.444816] (-) TimerEvent: {}
+[12.545200] (-) TimerEvent: {}
+[12.645598] (-) TimerEvent: {}
+[12.745940] (-) TimerEvent: {}
+[12.846312] (-) TimerEvent: {}
+[12.946691] (-) TimerEvent: {}
+[13.047050] (-) TimerEvent: {}
+[13.147407] (-) TimerEvent: {}
+[13.247826] (-) TimerEvent: {}
+[13.348225] (-) TimerEvent: {}
+[13.448646] (-) TimerEvent: {}
+[13.501368] (lakibeam1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lakibeam1_scan_node\x1b[0m\n'}
+[13.548770] (-) TimerEvent: {}
+[13.649136] (-) TimerEvent: {}
+[13.749621] (-) TimerEvent: {}
+[13.850091] (-) TimerEvent: {}
+[13.950732] (-) TimerEvent: {}
+[13.967011] (lakibeam1) StdoutLine: {'line': b'[100%] Built target lakibeam1_scan_node\n'}
+[13.986861] (lakibeam1) CommandEnded: {'returncode': 0}
+[13.988076] (lakibeam1) JobProgress: {'identifier': 'lakibeam1', 'progress': 'install'}
+[14.007191] (lakibeam1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thevindu/catkin_ws/src/build/lakibeam1'], 'cwd': '/home/thevindu/catkin_ws/src/build/lakibeam1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thevindu'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thevindu'), ('OLDPWD', '/home/thevindu/catkin_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '7837'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/thevindu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thevindu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thevindu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Thevindu-Latitude-5420:@/tmp/.ICE-unix/2079,unix/Thevindu-Latitude-5420:/tmp/.ICE-unix/2079'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4ab4879d_e022_4cd3_b2c4_5101befb96e4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L5YU62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thevindu/catkin_ws/src/build/lakibeam1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.026289] (lakibeam1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.026659] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/ament_index/resource_index/package_run_dependencies/lakibeam1\n'}
+[14.026911] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/ament_index/resource_index/parent_prefix_path/lakibeam1\n'}
+[14.027156] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/environment/ament_prefix_path.sh\n'}
+[14.027307] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/environment/ament_prefix_path.dsv\n'}
+[14.027504] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/environment/path.sh\n'}
+[14.027678] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/environment/path.dsv\n'}
+[14.027846] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/local_setup.bash\n'}
+[14.028016] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/local_setup.sh\n'}
+[14.028204] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/local_setup.zsh\n'}
+[14.028406] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/local_setup.dsv\n'}
+[14.028592] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/package.dsv\n'}
+[14.028784] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/ament_index/resource_index/packages/lakibeam1\n'}
+[14.029897] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/cmake/lakibeam1Config.cmake\n'}
+[14.030055] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/cmake/lakibeam1Config-version.cmake\n'}
+[14.030203] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/package.xml\n'}
+[14.030496] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/lib/lakibeam1/lakibeam1_scan_node\n'}
+[14.032965] (lakibeam1) StdoutLine: {'line': b'-- Set runtime path of "/home/thevindu/catkin_ws/src/install/lakibeam1/lib/lakibeam1/lakibeam1_scan_node" to ""\n'}
+[14.033098] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/launch\n'}
+[14.033234] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan.launch.py\n'}
+[14.033361] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_dual_lidar_view.launch.py\n'}
+[14.033529] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_dual_lidar.launch.py\n'}
+[14.033639] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_view.launch.py\n'}
+[14.033798] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/rviz\n'}
+[14.033899] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/rviz/lakibeam1_scan.rviz\n'}
+[14.034050] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/rviz/rviz_scan.rviz\n'}
+[14.034151] (lakibeam1) StdoutLine: {'line': b'-- Installing: /home/thevindu/catkin_ws/src/install/lakibeam1/share/lakibeam1/rviz/lakibeam1_scan_dual.rviz\n'}
+[14.037825] (lakibeam1) CommandEnded: {'returncode': 0}
+[14.051486] (-) TimerEvent: {}
+[14.064117] (lakibeam1) JobEnded: {'identifier': 'lakibeam1', 'rc': 0}
+[14.065112] (-) EventReactorShutdown: {}

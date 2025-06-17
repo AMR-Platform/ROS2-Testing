@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target lakibeam1_scan_node[0m
+[100%] Built target lakibeam1_scan_node
+-- Install configuration: ""
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/ament_index/resource_index/package_run_dependencies/lakibeam1
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/ament_index/resource_index/parent_prefix_path/lakibeam1
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/environment/ament_prefix_path.sh
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/environment/path.sh
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/environment/path.dsv
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/local_setup.bash
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/local_setup.sh
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/local_setup.zsh
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/local_setup.dsv
+-- Installing: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/package.dsv
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/ament_index/resource_index/packages/lakibeam1
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/cmake/lakibeam1Config.cmake
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/cmake/lakibeam1Config-version.cmake
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/package.xml
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/lib/lakibeam1/lakibeam1_scan_node
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/launch
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan.launch.py
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_dual_lidar_view.launch.py
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_dual_lidar.launch.py
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_view.launch.py
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/rviz
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/rviz/lakibeam1_scan.rviz
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/rviz/rviz_scan.rviz
+-- Up-to-date: /home/thevindu/catkin_ws/install/lakibeam1/share/lakibeam1/rviz/lakibeam1_scan_dual.rviz
