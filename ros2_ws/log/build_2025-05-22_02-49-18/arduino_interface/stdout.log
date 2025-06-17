@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating arduino_interface.egg-info
+writing arduino_interface.egg-info/PKG-INFO
+writing dependency_links to arduino_interface.egg-info/dependency_links.txt
+writing entry points to arduino_interface.egg-info/entry_points.txt
+writing requirements to arduino_interface.egg-info/requires.txt
+writing top-level names to arduino_interface.egg-info/top_level.txt
+writing manifest file 'arduino_interface.egg-info/SOURCES.txt'
+reading manifest file 'arduino_interface.egg-info/SOURCES.txt'
+writing manifest file 'arduino_interface.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/thevindu/ros2_ws/install/arduino_interface/lib/python3.10/site-packages/arduino-interface.egg-link (link to .)
+Installing arduino_serial_node script to /home/thevindu/ros2_ws/install/arduino_interface/lib/arduino_interface
+
+Installed /home/thevindu/ros2_ws/build/arduino_interface
+running symlink_data
+creating /home/thevindu/ros2_ws/install/arduino_interface/share/ament_index
+creating /home/thevindu/ros2_ws/install/arduino_interface/share/ament_index/resource_index
+creating /home/thevindu/ros2_ws/install/arduino_interface/share/ament_index/resource_index/packages
+symbolically linking /home/thevindu/ros2_ws/build/arduino_interface/resource/arduino_interface -> /home/thevindu/ros2_ws/install/arduino_interface/share/ament_index/resource_index/packages
+symbolically linking /home/thevindu/ros2_ws/build/arduino_interface/package.xml -> /home/thevindu/ros2_ws/install/arduino_interface/share/arduino_interface
+creating /home/thevindu/ros2_ws/install/arduino_interface/share/arduino_interface/launch
+symbolically linking /home/thevindu/ros2_ws/build/arduino_interface/launch/arduino_interface.launch.py -> /home/thevindu/ros2_ws/install/arduino_interface/share/arduino_interface/launch
